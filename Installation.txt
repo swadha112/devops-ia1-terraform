@@ -1,0 +1,211 @@
+Last login: Sun Sep 21 23:32:48 on console
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew tap hashicorp/tap && brew install hashicorp/tap/terraform
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 3 taps (mongodb/brew, homebrew/core and homebrew/cask).
+==> New Formulae
+addlicense: Scan directories recursively to ensure source files have license headers
+anchor: Solana Program Framework
+attempt-cli: CLI for retrying fallible commands
+bedtk: Simple toolset for BED files
+bom: Utility to generate SPDX-compliant Bill of Materials manifests
+cai: CLI tool for prompting LLMs
+cargo-geiger: Detects usage of unsafe Rust in a Rust crate and its dependencies
+changelogen: Generate Beautiful Changelogs using Conventional Commits
+claude-cmd: Claude Code Commands Manager
+claude-hooks: Hook system for Claude Code
+codebook-lsp: Code-aware spell checker language server
+context7-mcp: Up-to-date code documentation for LLMs and AI code editors
+darker: Apply Black formatting only in regions changed since last commit
+dash-mpd-cli: Download media content from a DASH-MPEG or DASH-WebM MPD manifest
+dnglab: Camera RAW to DNG file format converter
+docker-compose-langserver: Language service for Docker Compose documents
+docker-debug: Use new container attach on already container go on debug
+dqlite: Embeddable, replicated and fault-tolerant SQLite-powered engine
+dstp: Run common networking tests against your site
+emmylua_ls: Lua Language Server
+fjira: Fuzzy-find cli jira interface
+gitingest: Turn any Git repository into a prompt-friendly text ingest for LLMs
+gnome-papers: Document viewer for PDF and other document formats aimed at the GNOME desktop
+go-librespot: Spotify client
+gonzo: Log analysis TUI
+gphotos-uploader-cli: Command-line tool to mass upload media folders to Google Photos
+igrep: Interactive grep
+imagineer: Image processing and conversion from the terminal
+jqp: TUI playground to experiment and play with jq
+komac: Community Manifest Creator for Windows Package Manager (WinGet)
+krane: Kubernetes deploy tool with rollout verification
+kubernetes-cli@1.33: Kubernetes command-line interface
+lazycontainer: Terminal UI for Apple Containers
+lazyssh: Terminal-based SSH manager
+libselinux: SELinux library and simple utilities
+libsepol: SELinux binary policy manipulation library
+mariadb@11.8: Drop-in replacement for MySQL
+mcp-publisher: Publisher CLI tool for the Official Model Context Protocol (MCP) Registry
+mcp-server-kubernetes: MCP Server for kubernetes management commands
+mklittlefs: Creates LittleFS images for ESP8266, ESP32, Pico RP2040, and RP2350
+moribito: TUI for LDAP Viewing/Queries
+nanoarrow: Helpers for Arrow C Data & Arrow C Stream interfaces
+nextflow: Reproducible scientific workflows
+ni: Selects the right Node package manager based on lockfiles
+oatpp: Light and powerful C++ web framework
+openapi: CLI tools for working with OpenAPI, Arazzo and Overlay specifications
+openapv: Open Advanced Professional Video Codec
+opencode: AI coding agent, built for the terminal
+pgstream: PostgreSQL replication with DDL changes
+plutobook: Paged HTML Rendering Library
+plutoprint: Generate PDFs and Images from HTML
+privatebin-cli: CLI for creating and managing PrivateBin pastes
+recur: Retry a command with exponential backoff and jitter
+seqan3: Modern C++ library for sequence analysis
+shimmy: Small local inference server with OpenAI-compatible GGUF endpoints
+specify: Toolkit to help you get started with Spec-Driven Development
+terratag: CLI to automate tagging for AWS, Azure & GCP resources in Terraform
+tiny-remapper: Tiny, efficient tool for remapping JAR files using "Tiny"-format mappings
+tkrzw: Set of implementations of DBM
+tombi: TOML formatter, linter and language server
+tweakcc: Customize your Claude Code themes, thinking verbs, and more
+volcano-cli: CLI for Volcano, Cloud Native Batch System
+wal-g: Archival restoration tool for databases
+==> New Casks
+alfred@prerelease: Application launcher and productivity software
+bitfocus-buttons: Unified control and monitoring software
+corretto@25: OpenJDK distribution from Amazon
+defguard-client: WireGuard VPN client which supports multi-factor authentication
+devknife: Collection of handy developer tools
+diskspace: Show available disk space on APFS volumes
+drawpen: Screen annotation tool
+epicenter-whispering: Audio transcription that works with local and cloud models
+epson-print-layout: Software to layout and print images with Epson printers
+font-alan-sans
+font-bitcount-grid-double-ink
+font-bitcount-grid-single-ink
+font-bitcount-ink
+font-bitcount-prop-double-ink
+font-suse-mono
+frame0: Wireframing tool
+hotovo-aider-desk: Desktop GUI for Aider AI pair programming
+itermbrowserplugin: Enables an integrated web browser in iTerm2
+kontur-talk: Video conferencing service
+lexicon-dj: Library management for professional DJs
+lidanglesensor: Utility to display the lid angle and play a creaking sound
+livebook@nightly: Code notebooks for Elixir developers
+openforis-collect: Data management for field-based inventories
+osaurus: LLM server built on MLX
+overview: Create live window previews for any application
+parallels@20: Desktop virtualization software
+pimosa: Photo, video, music and pdf editing tools
+unifi-identity-endpoint: License free Wi-Fi, VPN, and Access Application for Organizations
+
+You have 47 outdated formulae and 2 outdated casks installed.
+
+==> Tapping hashicorp/tap
+Cloning into '/opt/homebrew/Library/Taps/hashicorp/homebrew-tap'...
+remote: Enumerating objects: 5850, done.
+remote: Counting objects: 100% (932/932), done.
+remote: Compressing objects: 100% (247/247), done.
+remote: Total 5850 (delta 808), reused 689 (delta 685), pack-reused 4918 (from 3)
+Receiving objects: 100% (5850/5850), 1.02 MiB | 4.14 MiB/s, done.
+Resolving deltas: 100% (4125/4125), done.
+Tapped 2 casks and 32 formulae (94 files, 1.4MB).
+==> Fetching downloads for: terraform
+==> Fetching hashicorp/tap/terraform
+==> Downloading https://releases.hashicorp.com/terraform/1.13.3/terraform_1.13.3_darwin_arm64.zip
+######################################################################################################################################################################################################### 100.0%
+==> Installing terraform from hashicorp/tap
+🍺  /opt/homebrew/Cellar/terraform/1.13.3: 5 files, 93MB, built in 2 seconds
+==> Running `brew cleanup terraform`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/ant_bottle_manifest--1.10.15_1... (6.1KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/ant--1.10.15_1... (8.5MB)
+Removing: /opt/homebrew/Cellar/c-ares/1.34.4... (176 files, 1MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cairo_bottle_manifest--1.18.4... (29.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cairo--1.18.4... (736.1KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cffi_bottle_manifest--1.17.1_1... (9.0KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cffi--1.17.1_1... (500.2KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cryptography_bottle_manifest--44.0.2... (11.8KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/cryptography--44.0.2... (2.8MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/fastapi_bottle_manifest--0.115.12... (21.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.16.0... (13.2KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/fontconfig--2.16.0... (378.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/freetype_bottle_manifest--2.13.3... (11.8KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/freetype--2.13.3... (936.9KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/gdbm_bottle_manifest--1.25... (8.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/gdbm--1.25... (283KB)
+Removing: /opt/homebrew/Cellar/gettext/0.24... (2,189 files, 19.9MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/giflib_bottle_manifest--5.2.2... (9.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/giflib--5.2.2... (149.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/glib_bottle_manifest--2.84.1... (21.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/glib--2.84.1... (8.5MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/gnutls_bottle_manifest--3.8.9... (20KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/gnutls--3.8.9... (3.0MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/graphite2_bottle_manifest--1.3.14... (13.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/graphite2--1.3.14... (89.4KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.1.0... (32.4KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/harfbuzz--11.1.0... (2.6MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/jpeg-turbo_bottle_manifest--3.1.0... (9.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/jpeg-turbo--3.1.0... (1.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.65.0... (8KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libnghttp2--1.65.0... (213.5KB)
+Removing: /opt/homebrew/Cellar/libpng/1.6.47... (28 files, 1.3MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.47... (9.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libpng--1.6.47... (447.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libpq_bottle_manifest--17.4_1... (18.2KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libtiff_bottle_manifest--4.7.0-1... (13.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libtiff--4.7.0... (1.8MB)
+Removing: /opt/homebrew/Cellar/libuv/1.50.0... (20 files, 1.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libxrender_bottle_manifest--0.9.12... (12.2KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/libxrender--0.9.12... (53.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.17... (13.0KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/little-cms2--2.17... (423.0KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/lz4_bottle_manifest--1.10.0-1... (11.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/lz4--1.10.0... (269.7KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/lzo_bottle_manifest--2.10... (15.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/lzo--2.10... (144.8KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/node_bottle_manifest--23.11.0-1... (21.2KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/node--23.11.0... (19.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/openjdk_bottle_manifest--23.0.2... (43.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/openjdk--23.0.2... (198.0MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/openstackclient_bottle_manifest--8.0.0... (29.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/openstackclient--8.0.0... (9.6MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pcre2_bottle_manifest--10.45... (10.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pcre2--10.45... (2.2MB)
+Removing: /opt/homebrew/Cellar/pixman/0.44.2... (10 files, 655.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pixman_bottle_manifest--0.44.2... (8KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pixman--0.44.2... (176.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pycparser_bottle_manifest--2.22_1... (1.9KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/pycparser--2.22_1... (343.4KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/python@3.13--3.13.3... (17.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/python@3.9_bottle_manifest--3.9.22... (26.0KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/python@3.9--3.9.22... (14.2MB)
+Removing: /opt/homebrew/Cellar/readline/8.2.13... (51 files, 1.7MB)
+Removing: /opt/homebrew/Cellar/sqlite/3.49.1... (13 files, 4.7MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/sqlite_bottle_manifest--3.49.1... (10.9KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/sqlite--3.49.1... (2.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/unbound_bottle_manifest--1.23.0... (15.9KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/unbound--1.23.0... (2.9MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/uvicorn_bottle_manifest--0.34.2... (19.7KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/xz_bottle_manifest--5.8.1... (11.5KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/xz--5.8.1... (730.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7... (12.6KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/zstd--1.5.7... (767KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/portable-ruby-3.3.8.arm64_big_sur.bottle.tar.gz... (11.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/ee5cd3f012f2d19b5a07eefbd32c080a49c16064/Cask/ngrok.rb... (1.3KB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/bootsnap/9857322932db1075c1bb0e18715c0100e54c980b13f0770aaa027620250b6c8c... (640 files, 5.2MB)
+Removing: /Users/swadhakhatod/Library/Caches/Homebrew/bootsnap/50193657624f047945cc2e64d9ef1a7bb9da367bd1b2dad6cdb65cbd305750f2... (652 files, 5.2MB)
+Removing: /Users/swadhakhatod/Library/Logs/Homebrew/glib... (64B)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % brew install vault
+
+==> Fetching downloads for: vault
+Error: vault has been disabled because it will change its license to BUSL on the next release! It was disabled on 2024-09-27.
+==> No outdated dependents to upgrade!
+(base) swadhakhatod@Swadhas-MacBook-Air ~ % 

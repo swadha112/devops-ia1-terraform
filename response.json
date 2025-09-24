@@ -1,0 +1,1 @@
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}, "body": "{\n  \"message\": \"Hello from Terraform + LocalStack!\",\n  \"environment\": \"development\",\n  \"dynamodb_table\": \"user-data-table\",\n  \"s3_bucket\": \"terraform-demo-bucket-mrw4e2vk\",\n  \"lambda_version\": \"$LATEST\",\n  \"status\": \"success\"\n}"}
