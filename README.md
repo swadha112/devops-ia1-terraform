@@ -25,10 +25,15 @@ Pipeline Workflow
 Core Configuration Files
 
 main.tf	: Infrastructure Definition	Defines S3 buckets, DynamoDB tables, Lambda functions, and IAM roles
+
 providers.tf :	Provider Configuration	Configures AWS provider to use LocalStack endpoints
+
 variables.tf :	Input Variables	Defines configurable parameters for the infrastructure
+
 outputs.tf :	Output Values	Exposes important resource information after deployment
+
 .gitignore :	Security & Cleanup	Prevents sensitive files from being committed to Git
+
 
 Resources Created
 
